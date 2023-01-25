@@ -1,0 +1,80 @@
+Q1) git clone "https://github.com/firstcontributions/first-contributions.git"
+
+git switch -c sudhanshu
+
+git add Contributors.md
+
+git commit -m "Add Sudhanshu Rai to Contributors list"
+
+git push -u origin sudhanshu
+
+
+Q2) git clone "https://github.com/WisdmLabs/Engineering-Best-Practices.git"
+
+touch file.txt
+
+git add .
+
+git commit -m "added file.txt"
+
+Created new merge request
+
+Q3) mkdir sudhanshu-rai-assignment
+
+cp Engineering-Best-Practices/file.txt sudhanshu-rai-assignment
+
+git clone "https://github.com/wiseSudhanshu/New-Repo.git"
+
+git add .
+
+git commit -m "added sudhanshu-rai-assignment"
+
+vi readme.md
+
+git add .
+
+git commit -m "added readme file"
+
+git switch -c "test250123"
+
+touch changes.txt
+
+git add .
+
+git commit -m "added changes.txt"
+
+git checkout main
+
+git merge test250123
+
+git log
+
+commit 1b5455fe040a838bf3f3c4f444eaf5104dc51c32 (HEAD -> main)
+Author: wiseSudhanshu <sudhanshu.rai@wisdmlabs.com>
+Date:   Wed Jan 25 11:37:01 2023 +0530
+
+    Revert "added readme file"
+
+    This reverts commit d67722c35ea3abd4d1f543d46559064255f1ae58.
+
+commit 320cc2145008bdb74d3dca661b8b36ad2777e985 (test250123)
+Author: wiseSudhanshu <sudhanshu.rai@wisdmlabs.com>
+Date:   Wed Jan 25 11:36:22 2023 +0530
+
+    added changes.txt
+
+commit d67722c35ea3abd4d1f543d46559064255f1ae58
+Author: wiseSudhanshu <sudhanshu.rai@wisdmlabs.com>
+Date:   Wed Jan 25 11:35:48 2023 +0530
+
+    added readme file
+
+commit eb3fcf6a3218da6692b5dcae197af3fb846aecae
+Author: wiseSudhanshu <sudhanshu.rai@wisdmlabs.com>
+Date:   Wed Jan 25 11:35:09 2023 +0530
+
+    added sudhanshu-rai-assignment
+
+
+git revert d67722c35ea3abd4d1f543d46559064255f1ae58
+
